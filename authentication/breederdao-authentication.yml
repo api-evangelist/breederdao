@@ -1,0 +1,24 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.sovrun.org/build-with-sovrun/readygamer/readygamer-api
+docs: https://docs.sovrun.org/build-with-sovrun/readygamer/readygamer-api
+summary:
+  types:
+  - apiKey
+  api_key_in:
+  - header
+  oauth2_flows: []
+  notes: >-
+    The ReadyGamer API authenticates every request with a custom API key sent in
+    the X-API-Key request header. Keys are issued out-of-band by the ReadyGamer
+    team (access requested via a Google Form); there is no self-serve OAuth or
+    OpenID Connect flow documented. Requests are HTTP POST to
+    https://api.ready-gamer.sovrun.org/api/<game>/<command>/chat.
+schemes:
+- name: ReadyGamerApiKey
+  type: apiKey
+  in: header
+  parameter_name: X-API-Key
+  api: ReadyGamer API
+  sources:
+  - https://docs.sovrun.org/build-with-sovrun/readygamer/readygamer-api
