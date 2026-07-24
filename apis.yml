@@ -1,22 +1,105 @@
 aid: breederdao
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/breederdao.png
 name: BreederDAO
-description: BreederDAO is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  BreederDAO (rebranded as Sovrun) is a Web3 gaming infrastructure company that
+  began as a factory for high-volume, in-game NFT assets — breeding and crafting
+  digital items for blockchain games and gaming guilds — and has since evolved
+  into a platform for fully on-chain games and Autonomous Worlds. Its developer
+  surface today centers on the Sovrun SDK (traditional game-dev tooling stitched
+  to on-chain game and Autonomous World generators), the Chain Tactics moddable
+  game, the $SOVRN token running on EVM chains (Ethereum, Base, and a
+  Hyperliquid-based Sovrun L2), and the ReadyGamer API — a joint venture with
+  Virtuals that exposes an HTTP endpoint for AI-agent NPC chat inside games such
+  as Roblox. Backed by a16z.
 url: https://raw.githubusercontent.com/api-evangelist/breederdao/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-rebrand: Sovrun (formerly BreederDAO)
 x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-apis: []
+- Web3
+- Blockchain
+- Gaming
+- NFT
+- Autonomous Worlds
+- AI Agents
+- Developer Tools
+apis:
+- name: ReadyGamer API
+  description: >-
+    ReadyGamer is a joint venture between Sovrun and Virtuals that enables
+    AI-powered, autonomous decision-making for in-game NPCs through the GAME
+    framework. The HTTP API accepts POST chat requests per game and command
+    (e.g. /api/roblox/lightsout/chat), authenticated with an X-API-Key header
+    distributed by the ReadyGamer team, and returns the agent's response.
+  humanURL: https://docs.sovrun.org/build-with-sovrun/readygamer/readygamer-api
+  baseURL: https://api.ready-gamer.sovrun.org
+  tags:
+  - AI Agents
+  - Gaming
+  - NPC
+  - Web3
+  properties:
+  - type: Authentication
+    url: authentication/breederdao-authentication.yml
+common:
+- type: Website
+  url: https://www.sovrun.org/
+- type: DeveloperPortal
+  url: https://docs.sovrun.org/
+- type: Documentation
+  url: https://docs.sovrun.org/
+- type: APIReference
+  url: https://docs.sovrun.org/build-with-sovrun/readygamer/readygamer-api
+- type: GettingStarted
+  url: https://docs.sovrun.org/build-with-sovrun/chain-tactics/getting-started-guides
+- type: Roadmap
+  url: https://docs.sovrun.org/build-with-sovrun/chain-tactics/chain-tactics-development-roadmap
+- type: Blog
+  url: https://medium.com/@sovrun
+- type: Support
+  url: https://discord.com/invite/Sovrun
+- type: GitHubOrganization
+  url: https://github.com/sovrun
+- type: TermsOfService
+  url: https://www.sovrun.org/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.sovrun.org/privacy-policy
+- type: Whitepaper
+  url: https://litepaper.sovrun.org
+- type: Authentication
+  url: authentication/breederdao-authentication.yml
+- type: LLMsTxt
+  url: llms/breederdao-llms.txt
+- type: DomainSecurity
+  url: security/breederdao-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

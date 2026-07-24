@@ -1,0 +1,60 @@
+<!-- generated: 2026-07-18 | method: searched | source: https://docs.sovrun.org/llms.txt -->
+# Sovrun Docs 2025
+
+## Sovrun Docs 2025
+
+- [Introduction to Sovrun](https://docs.sovrun.org/intro-to-sovrun/introduction-to-sovrun.md)
+- [Autonomous Worlds](https://docs.sovrun.org/intro-to-sovrun/autonomous-worlds.md)
+- [About Sovrun](https://docs.sovrun.org/intro-to-sovrun/about-sovrun.md)
+- [Sovrun Genesis](https://docs.sovrun.org/intro-to-sovrun/about-sovrun/sovrun-genesis.md)
+- [Sovrun Labs](https://docs.sovrun.org/intro-to-sovrun/about-sovrun/sovrun-labs.md)
+- [Sovrun Nexus](https://docs.sovrun.org/intro-to-sovrun/about-sovrun/sovrun-nexus.md)
+- [Case Study: Eve Frontier](https://docs.sovrun.org/intro-to-sovrun/about-sovrun/case-study-eve-frontier.md): Forging the Frontier: Sovrun’s Impact on the Rise of Autonomous Worlds in EVE
+- [Case Study: Plunder Quest](https://docs.sovrun.org/intro-to-sovrun/about-sovrun/case-study-plunder-quest.md)
+- [History of Sovrun (BreederDAO)](https://docs.sovrun.org/intro-to-sovrun/about-sovrun/history-of-sovrun-breederdao.md)
+- [About $SOVRN](https://docs.sovrun.org/the-sovrn-token/about-usdsovrn.md)
+- [Token Utility](https://docs.sovrun.org/the-sovrn-token/token-utility.md)
+- [$SOVRN Tokenomics](https://docs.sovrun.org/the-sovrn-token/usdsovrn-tokenomics.md)
+- [$SOVRN on EVM Chains](https://docs.sovrun.org/the-sovrn-token/usdsovrn-on-evm-chains.md)
+- [Ethereum](https://docs.sovrun.org/the-sovrn-token/usdsovrn-on-evm-chains/ethereum.md)
+- [Hyperliquid](https://docs.sovrun.org/the-sovrn-token/usdsovrn-on-evm-chains/hyperliquid.md)
+- [Running a Node](https://docs.sovrun.org/the-sovrn-token/usdsovrn-on-evm-chains/hyperliquid/running-a-node.md): For developers and community members that want to operate a node.
+- [Network Info](https://docs.sovrun.org/the-sovrn-token/usdsovrn-on-evm-chains/hyperliquid/network-info.md): Connection details to Sovrun L2.
+- [Block Explorer](https://docs.sovrun.org/the-sovrn-token/usdsovrn-on-evm-chains/hyperliquid/network-info/block-explorer.md)
+- [Contracts](https://docs.sovrun.org/the-sovrn-token/usdsovrn-on-evm-chains/hyperliquid/network-info/contracts.md): Relevant HyperEVM and L2 smart contracts.
+- [Acquiring test SOVRN](https://docs.sovrun.org/the-sovrn-token/usdsovrn-on-evm-chains/hyperliquid/network-info/acquiring-test-sovrn.md): How get SOVRN on the testnet
+- [Sessionchains](https://docs.sovrun.org/the-sovrn-token/usdsovrn-on-evm-chains/hyperliquid/sessionchains.md): Sessionchains are ephemeral chains that host non-critical and temporary data for games
+- [Staking](https://docs.sovrun.org/the-sovrn-token/usdsovrn-on-evm-chains/hyperliquid/staking.md)
+- [Base](https://docs.sovrun.org/the-sovrn-token/usdsovrn-on-evm-chains/base.md)
+- [BREED to SOVRN Migration](https://docs.sovrun.org/the-sovrn-token/usdsovrn-on-evm-chains/breed-to-sovrn-migration.md)
+- [Chain Tactics](https://docs.sovrun.org/build-with-sovrun/chain-tactics.md)
+- [Who is Chain Tactics for?](https://docs.sovrun.org/build-with-sovrun/chain-tactics/who-is-chain-tactics-for.md)
+- [Why Mod Chain Tactics?](https://docs.sovrun.org/build-with-sovrun/chain-tactics/why-mod-chain-tactics.md)
+- [Headless Client](https://docs.sovrun.org/build-with-sovrun/chain-tactics/headless-client.md)
+- [Sovrun SDK](https://docs.sovrun.org/build-with-sovrun/chain-tactics/sovrun-sdk.md): The Sovrun SDK ties together traditional game development tools with fully on-chain game and Autonomous World generators
+- [Game Phases](https://docs.sovrun.org/build-with-sovrun/chain-tactics/game-phases.md)
+- [Game Mechanics](https://docs.sovrun.org/build-with-sovrun/chain-tactics/game-mechanics.md)
+- [Game Architecture](https://docs.sovrun.org/build-with-sovrun/chain-tactics/game-architecture.md)
+- [Expanding Chain Tactics Across EVM-Compatible Chains](https://docs.sovrun.org/build-with-sovrun/chain-tactics/expanding-chain-tactics-across-evm-compatible-chains.md)
+- [Chain Tactics Development Roadmap](https://docs.sovrun.org/build-with-sovrun/chain-tactics/chain-tactics-development-roadmap.md)
+- [Terminology](https://docs.sovrun.org/build-with-sovrun/chain-tactics/terminology.md)
+- [Getting Started Guides](https://docs.sovrun.org/build-with-sovrun/chain-tactics/getting-started-guides.md)
+- [Chain Tactics Local Development & Headless Client](https://docs.sovrun.org/build-with-sovrun/chain-tactics/getting-started-guides/chain-tactics-local-development-and-headless-client.md)
+- [Lightweight Unity Client](https://docs.sovrun.org/build-with-sovrun/chain-tactics/getting-started-guides/lightweight-unity-client.md): Sample Implementation using Unit
+- [Chain Tactics Modding Tutorials](https://docs.sovrun.org/build-with-sovrun/chain-tactics/getting-started-guides/chain-tactics-modding-tutorials.md)
+- [Troubleshooting Chain Tactics Local Development](https://docs.sovrun.org/build-with-sovrun/chain-tactics/getting-started-guides/troubleshooting-chain-tactics-local-development.md)
+- [ReadyGamer](https://docs.sovrun.org/build-with-sovrun/readygamer.md): A joint venture by Sovrun & Virtuals enabling AI-powered, autonomous decision-making in games through the GAME framework.
+- [Joint Venture](https://docs.sovrun.org/build-with-sovrun/readygamer/joint-venture.md): Virtuals + Sovrun = Virtuals
+- [Services](https://docs.sovrun.org/build-with-sovrun/readygamer/services.md)
+- [Architecture](https://docs.sovrun.org/build-with-sovrun/readygamer/architecture.md)
+- [GAME Framework](https://docs.sovrun.org/build-with-sovrun/readygamer/game-framework.md)
+- [ReadyGamer API](https://docs.sovrun.org/build-with-sovrun/readygamer/readygamer-api.md)
+- [Integration Workflow](https://docs.sovrun.org/build-with-sovrun/readygamer/integration-workflow.md)
+- [Roblox Integration](https://docs.sovrun.org/build-with-sovrun/readygamer/roblox-integration.md)
+- [Roblox Demo Game - Carnival AI](https://docs.sovrun.org/build-with-sovrun/readygamer/roblox-integration/roblox-demo-game-carnival-ai.md): Live on Roblox!
+- [AI Agent NPC's](https://docs.sovrun.org/build-with-sovrun/readygamer/roblox-integration/ai-agent-npcs.md)
+- [Roblox AI Agent Module](https://docs.sovrun.org/build-with-sovrun/readygamer/roblox-integration/roblox-ai-agent-module.md)
+- [Getting Started](https://docs.sovrun.org/build-with-sovrun/readygamer/roblox-integration/roblox-ai-agent-module/getting-started.md)
+- [Module Components](https://docs.sovrun.org/build-with-sovrun/readygamer/roblox-integration/roblox-ai-agent-module/module-components.md)
+- [Creating a Smart NPC](https://docs.sovrun.org/build-with-sovrun/readygamer/roblox-integration/roblox-ai-agent-module/creating-a-smart-npc.md)
+- [Creating a Continuous Behaviour Script](https://docs.sovrun.org/build-with-sovrun/readygamer/roblox-integration/roblox-ai-agent-module/creating-a-continuous-behaviour-script.md)
